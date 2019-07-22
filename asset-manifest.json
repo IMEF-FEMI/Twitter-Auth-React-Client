@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Twitter-Auth-React-Client/static/css/main.f723ea97.chunk.css",
-    "main.js": "/Twitter-Auth-React-Client/static/js/main.0fd5de49.chunk.js",
-    "main.js.map": "/Twitter-Auth-React-Client/static/js/main.0fd5de49.chunk.js.map",
+    "main.js": "/Twitter-Auth-React-Client/static/js/main.32f98353.chunk.js",
+    "main.js.map": "/Twitter-Auth-React-Client/static/js/main.32f98353.chunk.js.map",
     "runtime~main.js": "/Twitter-Auth-React-Client/static/js/runtime~main.a058b3b1.js",
     "runtime~main.js.map": "/Twitter-Auth-React-Client/static/js/runtime~main.a058b3b1.js.map",
     "static/js/2.7b4eeeea.chunk.js": "/Twitter-Auth-React-Client/static/js/2.7b4eeeea.chunk.js",
     "static/js/2.7b4eeeea.chunk.js.map": "/Twitter-Auth-React-Client/static/js/2.7b4eeeea.chunk.js.map",
     "index.html": "/Twitter-Auth-React-Client/index.html",
-    "precache-manifest.76a111937332c77c6c32f935eff71e62.js": "/Twitter-Auth-React-Client/precache-manifest.76a111937332c77c6c32f935eff71e62.js",
+    "precache-manifest.ea885c0c4636b26543f2b4d1ba441789.js": "/Twitter-Auth-React-Client/precache-manifest.ea885c0c4636b26543f2b4d1ba441789.js",
     "service-worker.js": "/Twitter-Auth-React-Client/service-worker.js",
     "static/css/main.f723ea97.chunk.css.map": "/Twitter-Auth-React-Client/static/css/main.f723ea97.chunk.css.map"
   }
