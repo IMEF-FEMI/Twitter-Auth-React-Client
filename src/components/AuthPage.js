@@ -4,18 +4,16 @@ import axios from 'axios'
 import qs from 'query-string'
  
 export default function SignIn(props){
-	console.log(window.location.search)
 
 	useEffect(() => {
-		window.location.href.split("#")
-	const query = qs.parse(window.location.search, { ignoreQueryPrefix: true })
+	const query = qs.parse(props.location.search, { ignoreQueryPrefix: true })
 
 	if (query.oauth_token === localStorage.getItem("oauthRequestToken")) {
 
-			axios.get(`https://twitter-3legged-server.herokuapp.com/callback/${localStorage.getItem("oauthRequestToken")}/${localStorage.getItem("oauthRequestTokenSecret")}/${query.oauth_verifier}`)
+			axios.get(`/callback/${localStorage.getItem("oauthRequestToken")}/${localStorage.getItem("oauthRequestTokenSecret")}/${query.oauth_verifier}`)
 			.then(response=>{
 				if (response.data.oauthAccessToken) {
-					axios.get(`https://twitter-3legged-server.herokuapp.com/verify/${response.data.oauthAccessToken}/${response.data.oauthAccessTokenSecret}`)
+					axios.get(`/verify/${response.data.oauthAccessToken}/${response.data.oauthAccessTokenSecret}`)
 					.then(res=>{
 						const { user } = res.data
 						const keys = response.data
