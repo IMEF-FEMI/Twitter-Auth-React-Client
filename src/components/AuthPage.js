@@ -6,7 +6,8 @@ import qs from 'query-string'
 export default function SignIn(props){
 
 	useEffect(() => {
-	const query = qs.parse(props.location.search, { ignoreQueryPrefix: true })
+		window.location.href.split("#")
+	const query = qs.parse(props.location.search.split("#"), { ignoreQueryPrefix: true })
 
 	if (query.oauth_token === localStorage.getItem("oauthRequestToken")) {
 
