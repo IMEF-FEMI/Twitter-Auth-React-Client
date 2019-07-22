@@ -2,7 +2,7 @@
   "name": "client",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/IMEF-FEMI/Twitter-Auth-React-Client",
+  "homepage": "https://imef-femi.github.io/Twitter-Auth-React-Client",
   "dependencies": {
     "axios": "^0.19.0",
     "gh-pages": "^2.0.1",
@@ -18,9 +18,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "yarn run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d build"
   },
-  "proxy": "http://localhost:8080",
   "eslintConfig": {
     "extends": "react-app"
   },
