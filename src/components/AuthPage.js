@@ -4,10 +4,11 @@ import axios from 'axios'
 import qs from 'query-string'
  
 export default function SignIn(props){
+	console.log(props.location.search.split("#"))
 
 	useEffect(() => {
 		window.location.href.split("#")
-	const query = qs.parse(props.location.search.split("#"), { ignoreQueryPrefix: true })
+	const query = qs.parse(props.location.search.split("#")[0], { ignoreQueryPrefix: true })
 
 	if (query.oauth_token === localStorage.getItem("oauthRequestToken")) {
 
