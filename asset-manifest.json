@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Twitter-Auth-React-Client/static/css/main.f723ea97.chunk.css",
+    "main.js": "/Twitter-Auth-React-Client/static/js/main.90f5dc47.chunk.js",
+    "main.js.map": "/Twitter-Auth-React-Client/static/js/main.90f5dc47.chunk.js.map",
+    "runtime~main.js": "/Twitter-Auth-React-Client/static/js/runtime~main.a058b3b1.js",
+    "runtime~main.js.map": "/Twitter-Auth-React-Client/static/js/runtime~main.a058b3b1.js.map",
+    "static/js/2.7b4eeeea.chunk.js": "/Twitter-Auth-React-Client/static/js/2.7b4eeeea.chunk.js",
+    "static/js/2.7b4eeeea.chunk.js.map": "/Twitter-Auth-React-Client/static/js/2.7b4eeeea.chunk.js.map",
+    "index.html": "/Twitter-Auth-React-Client/index.html",
+    "precache-manifest.fa8055d60c6144dff3188dd685639e65.js": "/Twitter-Auth-React-Client/precache-manifest.fa8055d60c6144dff3188dd685639e65.js",
+    "service-worker.js": "/Twitter-Auth-React-Client/service-worker.js",
+    "static/css/main.f723ea97.chunk.css.map": "/Twitter-Auth-React-Client/static/css/main.f723ea97.chunk.css.map"
+  }
+}
